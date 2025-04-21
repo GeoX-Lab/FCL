@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "imagenet100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 50,
+    "increment": 50,
+    "model_name": "finetune",
+    "convnet_type": "resnet18_fre",
+    "device": ["0"],
+    "seed": [1993]
+}
